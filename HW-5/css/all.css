@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+}
+.bg-box{
+    width: 800px;
+    height: 500px;
+    background: green;
+    background-image: url("../img/pole-zelen-trava-dom-derevya.jpg"),url("../img/grass-png-images-pictures-transparent-28.png"),url("../img/lamp-png-0.png"),url("../img/Ёжик.png"),url("../img/пончик.png");
+    background-repeat: no-repeat,repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: auto 300px, auto 180px,auto 40px,auto 30px,auto 30px;
+    background-position: 50% 50%,100% 100%,0% 0%,0%,100%;
+}
+div[class^='box']:first-of-type{
+    width: 100px;
+    height: 100px;
+    background: repeating-linear-gradient(180deg, green, green 10px, white 10px, white 20px);
+}
+div[class^='box']:nth-of-type(2){
+    width: 100px;
+    height: 100px;
+    background: repeating-linear-gradient(135deg, black, black 20px, gray 10px, gray 121px);
+}
+div[class^='box']:last-child{
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, red 20%, black 10%);
+}

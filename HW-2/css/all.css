@@ -1,0 +1,16 @@
+img{
+  width: 400px;
+}
+td, th{
+   padding: 20px; 
+}
+td, th, table{
+  border: 1px solid black;
+}
+td{
+  background: #bdffae ;  
+  text-align: center;
+}
+th{
+    background:#00f8fc;
+}
